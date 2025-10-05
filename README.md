@@ -91,8 +91,8 @@ El proceso de uso es sencillo:
 
 ## Limitaciones 
 Durante el desarrollo de la aplicación se identificaron varias limitaciones que vale la pena destacar. 
-En primer lugar, al tratarse de un validador de datos personales, el acceso a información real puede verse restringido por políticas de confidencialidad y protección de datos,
-lo que dificulta realizar pruebas con conjuntos de datos auténticos. Además, el uso exclusivo de archivos en formato Excel, si bien aporta practicidad por su amplia adopción, 
+En primer lugar, al tratarse de un validador de datos personales, el acceso a información real puede verse restringido por ***políticas de confidencialidad y protección de datos***,
+lo que dificulta realizar pruebas con conjuntos de datos auténticos. Además, el uso exclusivo de archivos en formato Excel, si bien aporta ***practicidad*** por su amplia adopción, 
 puede ralentizar el procesamiento de grandes volúmenes de información. En cuanto a las reglas de validación, algunas se mantienen en un nivel básico: por ejemplo, 
 la validación de nombres podría fortalecerse para permitir espacios o verificar combinaciones más naturales; de igual forma, podría ampliarse el rango de géneros y 
 tipos de documento aceptados. En lo referente a las fechas, una mejora futura sería restringir las edades a un máximo de 120 años. 
