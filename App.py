@@ -280,8 +280,10 @@ if df is not None:
         with pd.ExcelWriter(output, engine='openpyxl') as writer:
             # Hoja de datos con errores
             df_export = df.copy()
+            
             # Resaltar errores en rojo
             error_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
+            
             df_export.to_excel(writer, index=False, sheet_name='Datos validados')
             workbook = writer.book
             worksheet = writer.sheets['Datos validados']
