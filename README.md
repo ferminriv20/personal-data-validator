@@ -3,10 +3,10 @@
 
  ## 📝 Descripción
 Aplicación web desarrollada en ***Streamlit***  para validar  información de datos personales
-a partir de archivos de Excel. La app  identifica  los registros inválidos,
+a partir de archivos de ***Excel***. La app  identifica  los registros inválidos,
 genera un resumen con métricas de calidad de los datos y permite la exportación a un archivo de excel con los errores resaltados en rojo
-. Su objetivo principal es garantizar la precisión de
-la información personal mediante reglas de validación adaptadas al contexto colombiano.
+. Su objetivo principal es ***garantizar la precisión de
+la información personal*** mediante reglas de validación adaptadas al contexto colombiano.
 
 El proceso de uso es sencillo:
 
@@ -100,7 +100,7 @@ Finalmente, en la validación de ubicaciones (departamentos y ciudades), se da p
 determinar con certeza el departamento correspondiente incluso cuando el nombre de la ciudad sea válido.
 
 ## 👨‍💻 Author
-Este proyecto fue originalmente desarrollado por Fermín Antonio Rivero Sotelo como parte del curso CS50P de Harvard.
+Este proyecto fue originalmente desarrollado por ***Fermín Antonio Rivero Sotelo***como parte del curso ***CS50P de Harvard***.
 Posteriormente, realicé una adaptación completa al español para integrarlo a mi portafolio personal, con el objetivo de hacerlo accesible a un público hispanohablante y continuar mejorando sus funcionalidades.
 
 Si encuentras alguna observación, deseas brindar retroalimentación o te interesa colaborar en el desarrollo del proyecto, puedes ponerte en contacto conmigo. 
