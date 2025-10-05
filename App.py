@@ -148,7 +148,7 @@ if df is not None:
     st.subheader("⚙️ Configura las validaciones")
     st.markdown("""
     Selecciona las columnas correspondientes a cada tipo de dato.  
-    No es obligatorio llenar todas; puedes elegir solo las que quieras analizar.
+    No es obligatorio llenar todas, puedes elegir solo las que quieras analizar.
     """)
     DEFAULT_OPTION = 'Select an option'
     options = [DEFAULT_OPTION] + list(df.columns)
@@ -280,8 +280,6 @@ if df is not None:
         with pd.ExcelWriter(output, engine='openpyxl') as writer:
             # Hoja de datos con errores
             df_export = df.copy()
-            # Insertar la columna __row_idx__ al principio
-            #df_export.insert(0, '__row_idx__', range(len(df_export)))
             # Resaltar errores en rojo
             error_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
             df_export.to_excel(writer, index=False, sheet_name='Datos validados')
