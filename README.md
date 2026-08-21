@@ -100,7 +100,7 @@ tipos de documento aceptados. En lo referente a las fechas, una mejora futura se
 Finalmente, en la validación de ubicaciones (departamentos y ciudades), se da prioridad al departamento, ya que, si este no existe, resulta imposible 
 determinar con certeza el departamento correspondiente incluso cuando el nombre de la ciudad sea válido.
 
-## 👨‍💻 Author
+## 👨‍💻 Autor
 Este proyecto fue originalmente desarrollado por ***Fermín Antonio Rivero Sotelo***como parte del curso ***CS50P de Harvard***.
 Posteriormente, realicé una adaptación completa al español para integrarlo a mi portafolio personal, con el objetivo de hacerlo accesible a un público hispanohablante y continuar mejorando sus funcionalidades.
 
